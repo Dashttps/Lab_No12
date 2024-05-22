@@ -1,0 +1,57 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 36px;
+    margin-right: 15px;
+}
+
+.navb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 25px;
+    background-color: rgb(187, 167, 209);
+}
+
+.navLinks a {
+    margin: 0 14px;
+    text-decoration: underline wavy;
+    text-decoration-color: #000000;
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 9px;
+    color: black;
+    font-size: 22px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.reqBut, .calcBut {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    font-size: 18px;  
+}
+
+.reqBut img, .calcBut img {
+    margin-right: 8px;
+    
+}
+
+.reqBut{
+    background-color: #de6b4b;
+    color: white;
+}
+
+.calcBut {
+    background-color: #4c3e56;
+    color: white;
+}
